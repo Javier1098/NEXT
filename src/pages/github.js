@@ -40,7 +40,7 @@ Github.proptypes = {};
 
 export async function getServerSideProps() {
   const res = await fetch(
-    "https://api.github.com/users/inesmariao"
+    "https://api.github.com/users/Javier1098"
   );
   const data = await res.json();
 
